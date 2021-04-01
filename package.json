@@ -1,5 +1,5 @@
 {
-  "name": "discord.js",
+  "name": "@yogstation13/discord.js",
   "version": "11.6.4",
   "description": "A powerful library for interacting with the Discord API",
   "main": "./src/index",
@@ -13,10 +13,7 @@
     "lint:typings": "tslint typings/index.d.ts typings/discord.js-test.ts",
     "webpack": "parallel-webpack"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/discordjs/discord.js.git"
-  },
+  "repository": "git://github.com/yogstation13/discord.js.git",
   "keywords": [
     "discord",
     "api",
@@ -27,9 +24,6 @@
   ],
   "author": "Amish Shah <amishshah.2k@gmail.com>",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/discordjs/discord.js/issues"
-  },
   "homepage": "https://github.com/discordjs/discord.js#readme",
   "runkitExampleFilename": "./docs/examples/ping.js",
   "dependencies": {
