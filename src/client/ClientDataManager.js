@@ -76,6 +76,9 @@ class ClientDataManager {
           case Constants.ChannelTypes.STORE:
             channel = new StoreChannel(guild, data);
             break;
+          default:
+            console.warn("Ignoring channel with unknown type " + data.type);
+            return null; 
         }
 
         guild.channels.set(channel.id, channel);
