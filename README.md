@@ -1,3 +1,6 @@
+# Deprecation Notice
+This repository was used by https://github.com/yogstation13/yogbot which is now deprecated. As such, this project is also deprecated.
+
 <div align="center">
   <br />
   <p>
